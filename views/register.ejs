@@ -1,0 +1,20 @@
+<div class="row mt-3">
+    <div class="col-md-6 m-auto">
+        <div class="card card-body text-center">
+            <h2><i class="fas fa-plus-circle fa-5x"></i></h2>
+            <h2>Register</h2>
+            <% include ./partials/messages %>
+            <form action="register" method="POST">
+                <div class="form-group mt-3">
+                    <label for="username">Username</label>
+                    <input type="text" id="username" name="username" class="form-control" placeholder="Enter username">
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" class="form-control" placeholder="Enter password">
+                </div>
+                <button type="submit" class="btn btn-primary mt-5">Register</button>
+            </form>
+        </div>
+    </div>
+</div>

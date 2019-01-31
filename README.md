@@ -1,0 +1,1 @@
+Basic express + passport + mongo login app using ejs template engine
